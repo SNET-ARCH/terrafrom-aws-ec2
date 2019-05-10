@@ -1,41 +1,54 @@
 variable "aws_region" {
-    type = "string"
+  type = string
 }
+
 variable "aws_vpc_id" {
-    type = "string"
+  type = string
 }
+
 variable "aws_ec2_count" {
-    type = "string"
+  type = string
 }
+
 variable "aws_ec2_name" {
-    type = "string"
+  type = string
 }
+
 variable "aws_ami_id" {
-    type = "string"
+  type = string
 }
+
 variable "aws_instance_type" {
-    type = "string"
+  type = string
 }
+
 variable "aws_ec2_public_ip" {
-    type = "string"
+  type = string
 }
+
 variable "aws_ssh_key_name" {
-    type = "string"
+  type = string
 }
+
 variable "aws_sg_ids" {
-    type = "list"
+  type = list(string)
 }
+
 variable "aws_root_size" {
-    type = "string"
+  type = string
 }
+
 variable "aws_def_tags" {
-    type = "map"
+  type = map(string)
 }
+
 variable "aws_user_data" {
-    type = "string"
-    default = " "
+  type    = string
+  default = " "
 }
+
 variable "aws_ec2_iam_profile" {
-    type = "string"
-    default = " "
+  type    = string
+  default = " "
 }
+
