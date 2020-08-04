@@ -1,4 +1,4 @@
-aws_region = "eu-west-3"
+aws_region = "us-east-1"
 
 aws_def_tags = {
   tag1 = "value1"
